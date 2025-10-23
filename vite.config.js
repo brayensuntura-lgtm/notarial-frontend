@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // <-- IMPORTANTE: rutas relativas para que funcione online
+  base: './', // RUTAS RELATIVAS para que CSS y JS funcionen en Render
 })
+
