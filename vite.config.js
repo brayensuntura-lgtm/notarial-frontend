@@ -5,4 +5,3 @@ export default defineConfig({
   plugins: [react()],
   base: './', // RUTAS RELATIVAS para que CSS y JS funcionen en Render
 })
-
